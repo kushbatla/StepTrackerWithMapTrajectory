@@ -1,0 +1,18 @@
+com/example/android/track/TrackingDatabase_Impl.java
+ com.example.android.track.TrackingDatabase_Impl
+ com.example.android.track.TrackingDatabase_Impl$1
+com/example/android/track/TrackingDao_Impl.java
+ com.example.android.track.TrackingDao_Impl
+ com.example.android.track.TrackingDao_Impl$1
+ com.example.android.track.TrackingDao_Impl$2
+ com.example.android.track.TrackingDao_Impl$3
+ com.example.android.track.TrackingDao_Impl$4
+ com.example.android.track.TrackingDao_Impl$5
+ com.example.android.track.TrackingDao_Impl$6
+ com.example.android.track.TrackingDao_Impl$7
+ com.example.android.track.TrackingDao_Impl$8
+ com.example.android.track.TrackingDao_Impl$9
+com/example/android/runtracking/BuildConfig.java
+ com.example.android.runtracking.BuildConfig
+com/example/android/runtracking/databinding/ActivityMainBinding.java
+ com.example.android.runtracking.databinding.ActivityMainBinding

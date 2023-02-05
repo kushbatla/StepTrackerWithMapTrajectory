@@ -1,0 +1,131 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.track"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+11-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:5:5-78
+11-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <!-- Include required permissions for Google Maps API to run. -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kush\.gradle\caches\transforms-3\e188a1ca8ad6c6154ca708d482b2f339\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kush\.gradle\caches\transforms-3\e188a1ca8ad6c6154ca708d482b2f339\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kush\.gradle\caches\transforms-3\e188a1ca8ad6c6154ca708d482b2f339\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:24:5-67
+16-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kush\.gradle\caches\transforms-3\e188a1ca8ad6c6154ca708d482b2f339\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:24:22-64
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kush\.gradle\caches\transforms-3\e188a1ca8ad6c6154ca708d482b2f339\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kush\.gradle\caches\transforms-3\e188a1ca8ad6c6154ca708d482b2f339\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kush\.gradle\caches\transforms-3\e188a1ca8ad6c6154ca708d482b2f339\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kush\.gradle\caches\transforms-3\e188a1ca8ad6c6154ca708d482b2f339\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kush\.gradle\caches\transforms-3\e188a1ca8ad6c6154ca708d482b2f339\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kush\.gradle\caches\transforms-3\e188a1ca8ad6c6154ca708d482b2f339\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <application
+28-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:7:5-31:19
+29        android:name="com.example.android.track.TrackingApplication"
+29-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:14:9-69
+30        android:allowBackup="false"
+30-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:8:9-36
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.3.2] C:\Users\kush\.gradle\caches\transforms-3\35449ab53481f2dcb5544b834a6548d8\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:9:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:10:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:11:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:12:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:13:9-40
+39        <meta-data
+39-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:17:7-19:53
+40            android:name="com.google.android.geo.API_KEY"
+40-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:18:11-56
+41            android:value="@string/google_maps_key" />
+41-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:19:11-50
+42
+43        <!-- Main Activity -->
+44        <activity
+44-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:22:7-29:18
+45            android:name="com.example.android.runtracking.MapsActivity"
+45-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:23:11-70
+46            android:theme="@style/SplashTheme" >
+46-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:24:11-45
+47            <intent-filter>
+47-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:25:9-28:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:26:11-63
+48-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:26:19-60
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:27:11-71
+50-->C:\Users\kush\Desktop\RunnerTrackingAppFinal\app\src\main\AndroidManifest.xml:27:21-68
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="com.vmadalin.easypermissions.components.TestActivity" />
+53-->[com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\kush\.gradle\caches\transforms-3\2683fbbe9229bfbf0c892bb371c34ab4\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:13:9-89
+53-->[com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\kush\.gradle\caches\transforms-3\2683fbbe9229bfbf0c892bb371c34ab4\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:13:19-86
+54        <activity android:name="com.vmadalin.easypermissions.components.TestAppCompatActivity" />
+54-->[com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\kush\.gradle\caches\transforms-3\2683fbbe9229bfbf0c892bb371c34ab4\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:14:9-98
+54-->[com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\kush\.gradle\caches\transforms-3\2683fbbe9229bfbf0c892bb371c34ab4\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:14:19-95
+55        <activity android:name="com.vmadalin.easypermissions.components.TestSupportFragmentActivity" /> <!-- Needs to be explicitly declared on P+ -->
+55-->[com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\kush\.gradle\caches\transforms-3\2683fbbe9229bfbf0c892bb371c34ab4\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:15:9-104
+55-->[com.vmadalin:easypermissions-ktx:1.0.0] C:\Users\kush\.gradle\caches\transforms-3\2683fbbe9229bfbf0c892bb371c34ab4\transformed\jetified-easypermissions-ktx-1.0.0\AndroidManifest.xml:15:19-101
+56        <uses-library
+56-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kush\.gradle\caches\transforms-3\e188a1ca8ad6c6154ca708d482b2f339\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+57            android:name="org.apache.http.legacy"
+57-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kush\.gradle\caches\transforms-3\e188a1ca8ad6c6154ca708d482b2f339\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+58            android:required="false" />
+58-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\kush\.gradle\caches\transforms-3\e188a1ca8ad6c6154ca708d482b2f339\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+59
+60        <service
+60-->[androidx.room:room-runtime:2.3.0] C:\Users\kush\.gradle\caches\transforms-3\da08f0f82129f33733805ea52cebeef3\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+61            android:name="androidx.room.MultiInstanceInvalidationService"
+61-->[androidx.room:room-runtime:2.3.0] C:\Users\kush\.gradle\caches\transforms-3\da08f0f82129f33733805ea52cebeef3\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+62            android:directBootAware="true"
+62-->[androidx.room:room-runtime:2.3.0] C:\Users\kush\.gradle\caches\transforms-3\da08f0f82129f33733805ea52cebeef3\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+63            android:exported="false" />
+63-->[androidx.room:room-runtime:2.3.0] C:\Users\kush\.gradle\caches\transforms-3\da08f0f82129f33733805ea52cebeef3\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kush\.gradle\caches\transforms-3\b03e72a2cbf7e4916a621de77ff409f2\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kush\.gradle\caches\transforms-3\b03e72a2cbf7e4916a621de77ff409f2\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kush\.gradle\caches\transforms-3\b03e72a2cbf7e4916a621de77ff409f2\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\kush\.gradle\caches\transforms-3\b03e72a2cbf7e4916a621de77ff409f2\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+69
+70        <meta-data
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kush\.gradle\caches\transforms-3\30b69323e85350c603920ed06f5e3fb6\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+71            android:name="com.google.android.gms.version"
+71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kush\.gradle\caches\transforms-3\30b69323e85350c603920ed06f5e3fb6\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\kush\.gradle\caches\transforms-3\30b69323e85350c603920ed06f5e3fb6\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+73    </application>
+74
+75</manifest>
